@@ -1,0 +1,7 @@
+﻿services:
+  event management api lighteventmanagementapilight:
+    image: event management api lighteventmanagementapilight
+    build:
+      context: .
+      dockerfile: Event Management API Light/Dockerfile
+
